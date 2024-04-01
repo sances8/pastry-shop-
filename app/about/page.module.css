@@ -1,0 +1,12 @@
+.wrapper {
+    background: white;
+    display: flex;
+    justify-content: center;
+}
+
+.root {
+    padding: 20px 50px;
+    width: 100%;
+    max-width: 1024px;
+    height: 100vh;
+}

@@ -1,0 +1,92 @@
+.wrapper {
+    width: 100%;
+    max-width: 1024px;
+    display: flex;
+    flex-direction: column;
+    padding: 30px 50px 20px 50px;
+    background: #FFFDF5;
+    font-family: "Inter", sans-serif;
+    font-size: 14px;
+    gap: 20px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    background: #FFFDF5;
+}
+
+.footerMenu {
+    display: flex;
+    flex-direction: row;
+    gap: 150px;
+}
+
+.footerWrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.footerContacts {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    font-size: 13px;
+}
+
+.footerContactsTitle {
+    font-weight: bold;
+}
+
+.footerMenuBlock {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.footerMenuBlock span {
+    font-weight: bold;
+}
+
+.footerMenuBlock ul {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    gap: 5px;
+}
+
+.footerMenuBlock li {
+    cursor: pointer;
+}
+
+.footerBottom {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.footerBottom span {
+    font-size: 13px;
+}
+
+@media screen and (max-width: 828px) {
+    .wrapper {
+        padding: 30px 20px 20px 20px;
+    }
+
+    .footerMenu {
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    .footerMenuBlock {
+        gap: 10px;
+    }
+
+    .footerBottom {
+        flex-direction: column;
+        gap: 10px;
+    }
+    
+}

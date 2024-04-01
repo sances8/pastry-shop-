@@ -1,0 +1,48 @@
+.root {
+    width: 222px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.image {
+    border-radius: 16px;
+}
+
+.text {
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    color: #000000;
+}
+
+.block {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.price {
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    color: #000000;
+}
+
+.btn {
+    padding: 15px;
+    font-family: "Inter", sans-serif;
+    color: #000000;
+    font-size: 15px;
+    font-weight: 600;
+    background: #D5EFF3;
+    border: none;
+    border-radius: 54px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background: #B8E6EA;
+    scale: 1.1;
+}

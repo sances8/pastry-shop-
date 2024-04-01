@@ -1,0 +1,79 @@
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    padding: 20px 50px 40px 50px;
+    gap: 20px;
+    background: #FFFDD4;
+    font-family: "Inter", sans-serif;
+    width: 100%;
+    max-width: 1024px;
+}
+
+.faq {
+    display: flex;
+    justify-content: center;
+    background: #FFFDD4;
+}
+
+.faq h2 {
+    font-size: 24px;
+    font-weight:normal;
+    text-align: center;
+}
+
+.faqCards {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.faqCard {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border: none;
+    font-size: 20px;
+    border-bottom: 1px solid #000000;
+}
+
+.faqCard {
+    cursor: pointer;
+}
+
+.faqCard button {
+    border: none;
+    outline: none;
+    background: transparent;
+    cursor: pointer;
+}
+
+.faqCard {
+    transition: border-color 0.3s ease;
+}
+
+.faqCard:hover {
+    border-color: #ccc; 
+}
+
+.faqCard button {
+    transition: transform 0.3s ease;
+}
+
+.faqCard button:hover {
+    transform: rotate(180deg); 
+}
+
+.expanded {
+    transform: rotate(180deg); 
+}
+
+.faqCardWrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.answer {
+    /* Стили для блока с ответом */
+}

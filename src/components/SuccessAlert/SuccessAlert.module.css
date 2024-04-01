@@ -1,0 +1,30 @@
+.alert {
+    position: fixed;
+    top: -100px; 
+    left: 50%;
+    transform: translateX(-50%);
+    color: #000000;
+    background-color: rgba(163, 230, 169, 0.7);
+    padding: 10px 20px;
+    border-radius: 15px;
+    z-index: 9999;
+    animation: slideIn 0.5s ease forwards, fadeOut 0.5s ease forwards 2s;
+  }
+
+  @keyframes slideIn {
+    0% {
+      top: -100px;
+    }
+    100% {
+      top: 20px;
+    }
+  }
+
+  @keyframes fadeOut {
+    0% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+    }
+  }
